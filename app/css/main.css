@@ -186,6 +186,9 @@
 .background_color--orange {
   background-color: #ff9d46; }
 
+.background_color--white {
+  background-color: #fff; }
+
 header {
   background: url("/app/images/header_background.png") no-repeat; }
 
@@ -386,6 +389,14 @@ button:hover {
   color: #575757;
   font-style: italic;
   padding: 33px 0 28px; }
+
+.month_fill_button {
+  border-radius: 20px 0 0 20px;
+  padding: 7px 32px; }
+
+.year_fill_button {
+  border-radius: 0 20px 20px 0;
+  padding: 7px 32px; }
 
 @media (max-width: 478px) {
   .get_the_app_button {
