@@ -63,3 +63,27 @@
         cursor: pointer;
     }
 }
+.fill_buttons{
+    padding-bottom: 80px;
+    & button{
+        padding: 16px 67px;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);  
+    }
+    &_month{
+        border-radius: 20px 0 0 20px;
+    }
+    &_year{
+        border-radius: 0 20px 20px 0;
+    }
+}
+.fill_sign_up_button{
+    position: relative;
+    & button{
+        border-radius: 30px;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
+        position: absolute;
+        transform: translate(-50%, 75%);
+        padding: 15px 35px;
+        text-transform: uppercase;
+    }
+}

@@ -55,6 +55,26 @@
   .stroke_button:hover {
     cursor: pointer; }
 
+.fill_buttons {
+  padding-bottom: 80px; }
+  .fill_buttons button {
+    padding: 16px 67px;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1); }
+  .fill_buttons_month {
+    border-radius: 20px 0 0 20px; }
+  .fill_buttons_year {
+    border-radius: 0 20px 20px 0; }
+
+.fill_sign_up_button {
+  position: relative; }
+  .fill_sign_up_button button {
+    border-radius: 30px;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    transform: translate(-50%, 75%);
+    padding: 15px 35px;
+    text-transform: uppercase; }
+
 @font-face {
   font-family: 'appnest';
   src: url("../fonts/appnest.eot?4ob0el");
@@ -261,11 +281,10 @@ button:hover {
 .header_content {
   height: 100vh;
   display: flex; }
-
-.header_content_left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  .header_content_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 .header_image {
   display: flex;
@@ -281,13 +300,13 @@ button:hover {
   line-height: 1.25;
   color: #fff; }
 
-.light_span {
-  font-weight: 100; }
-
-.header_parahraph p {
+.header_paragraph p {
   font-size: 18px;
   line-height: 1.667;
   padding: 40px 0 5px; }
+
+.light_span {
+  font-weight: 100; }
 
 .info_section {
   margin-top: 23px;
@@ -332,7 +351,7 @@ button:hover {
   transform: translate(-50%, -50%); }
 
 .feature_section_phones {
-  padding: 140px 0; }
+  padding: 141px 0; }
 
 .feature_section_elements {
   display: flex;
@@ -345,17 +364,17 @@ button:hover {
   line-height: 0.444;
   padding: 40px 0 22px; }
 
+.feature_element {
+  padding-bottom: 70px; }
+
+.feature__section_elements i {
+  font-size: 43px; }
+
 .features_heading {
   padding-top: 140px; }
 
 .features_paragraph {
   padding: 21px 0 71px; }
-
-.feature_element {
-  padding-bottom: 70px; }
-
-.feature_section_elements i {
-  font-size: 43px; }
 
 .video {
   position: relative;
@@ -372,9 +391,6 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.screenshots_header_content {
-  padding-bottom: 75px; }
-
 .screenshots img {
   max-height: 100%;
   max-width: 100%; }
@@ -382,15 +398,8 @@ button:hover {
 .screenshots_overlay {
   position: relative; }
 
-.overlay_blue {
-  background-color: rgba(0, 207, 241, 0.902);
-  position: absolute;
-  width: 310px;
-  height: 598px;
-  top: 50%;
-  z-index: 261;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+.screenshots_header_content {
+  padding-bottom: 75px; }
 
 .green_section {
   background: url("/app/images/green_section_background.png") no-repeat;
@@ -421,45 +430,24 @@ button:hover {
   width: 22%;
   border-top: 1px solid white; }
 
-.overlay_green {
-  background-color: rgba(36, 198, 87, 0.902);
-  padding-bottom: 106px; }
-
 .feedback_list {
   padding-top: 73px; }
-
-.feedback_list_item {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
-  padding: 47px 42px; }
-
-.feedback_list_name {
-  font-size: 24px;
-  font-weight: bold;
-  padding-top: 25px;
-  margin-bottom: 0; }
-
-.feedback_list_job {
-  font-size: 18px; }
-
-.feedback_list_description {
-  font-size: 18px;
-  font-family: "Raleway";
-  color: #575757;
-  font-style: italic;
-  padding: 33px 0 28px; }
-
-.month_fill_button {
-  border-radius: 20px 0 0 20px;
-  padding: 16px 67px;
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05); }
-
-.year_fill_button {
-  border-radius: 0 20px 20px 0;
-  padding: 16px 67px;
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1); }
-
-.fill_buttons {
-  padding-bottom: 80px; }
+  .feedback_list_item {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 47px 42px; }
+  .feedback_list_name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    margin-bottom: 0; }
+  .feedback_list_job {
+    font-size: 18px; }
+  .feedback_list_description {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: #575757;
+    font-style: italic;
+    padding: 33px 0 28px; }
 
 .price_table_description {
   font-size: 18px;
@@ -488,17 +476,6 @@ button:hover {
   font-size: 18px;
   color: #575757;
   line-height: 2.667; }
-
-.fill_sign_up_button {
-  position: relative; }
-
-.fill_sign_up_button button {
-  border-radius: 30px;
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
-  position: absolute;
-  transform: translate(-50%, 75%);
-  padding: 15px 35px;
-  text-transform: uppercase; }
 
 .advertisement {
   background-image: url("/app/images/advertisement_background.png");

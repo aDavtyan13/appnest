@@ -218,37 +218,39 @@ button:hover{
         height: 58px;
     }
 }
-.header_content{
-    height: 100vh;
-    display: flex;
-}
-.header_content_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.header_image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    & img{
-        max-height: 100%;
+.header{
+    &_content{
+        height: 100vh;
+        display: flex;
+        &_left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
-}
-.header_text p{
-    font-size: 48px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.25;   
-    color: #fff;      
+    &_image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img{
+            max-height: 100%;
+        }
+    }
+    &_text p{
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.25;   
+        color: #fff;     
+    }
+    &_paragraph p{
+        font-size: 18px;
+        line-height: 1.667;
+        padding: 40px 0 5px;
+    }
 }
 .light_span{
     font-weight: 100;
-}
-.header_parahraph p{
-    font-size: 18px;
-    line-height: 1.667;
-    padding: 40px 0 5px;
 }
 .info{
     &_section{
@@ -286,7 +288,6 @@ button:hover{
     }
 }
     
-  
 .rounds {
     border-radius: 50%;
     position: absolute;
@@ -296,31 +297,33 @@ button:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.feature_section_phones{
-    padding: 141px 0;
-}
-.feature_section_elements{
-    display: flex;
-    flex-wrap: wrap;
-}
-.feature_elements_header{
-    font-size: 18px;
-    color: #414040;
-    font-weight: bold;
-    line-height: 0.444;
-    padding: 40px 0 22px;
+.feature{
+    &_section_phones{
+        padding: 141px 0;
+    }
+    &_section_elements{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_elements_header{
+        font-size: 18px;
+        color: #414040;
+        font-weight: bold;
+        line-height: 0.444;
+        padding: 40px 0 22px;
+    }
+    &_element{
+        padding-bottom: 70px;
+    }
+    &__section_elements i{
+        font-size: 43px;
+    }
 }
 .features_heading {
     padding-top: 140px;
 }
 .features_paragraph{
     padding: 21px 0 71px;
-}
-.feature_element{
-  padding-bottom: 70px;
-}
-.feature_section_elements i{
-    font-size: 43px;
 }
 .video{
     position: relative;
@@ -341,27 +344,18 @@ button:hover{
         transform: translate(-50%,-50%);
     }
 }
-.screenshots_header_content{
-    padding-bottom: 75px;
+.screenshots {
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    &_overlay{
+        position: relative;
+    }
+    &_header_content{
+        padding-bottom: 75px;
+    }
 }
-.screenshots img{
-    max-height: 100%;
-    max-width: 100%;
-}
-.screenshots_overlay{
-    position: relative;
-}
-.overlay_blue{
-    background-color: rgba(0, 207, 241, 0.902);
-    position: absolute;
-    width: 310px;
-    height: 598px;
-    top: 50%;
-    z-index: 261;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .green_section{
     background: url('/app/images/green_section_background.png') no-repeat;
     margin-top: 140px; /*error*/
@@ -395,47 +389,31 @@ button:hover{
     width: 22%;
     border-top: 1px solid white;
 }
-.overlay_green{
-    background-color: rgba(36, 198, 87,0.902);
-    padding-bottom: 106px;
-}
+
 .feedback_list{
     padding-top: 73px;
-}
-.feedback_list_item{
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);   
-    padding: 47px 42px;
-}
-.feedback_list_name{
-  font-size: 24px;
-  font-weight: bold;
-  padding-top: 25px;
-  margin-bottom: 0;
-}
-.feedback_list_job{
-  font-size: 18px;
-}
-.feedback_list_description{
-  font-size: 18px;
-  font-family: "Raleway";
-  color: rgb(87, 87, 87);
-  font-style: italic;
-  padding: 33px 0 28px;
+    &_item{
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);   
+        padding: 47px 42px;
+    }
+    &_name{
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 25px;
+        margin-bottom: 0;
+    }
+    &_job{
+        font-size: 18px;
+    }
+    &_description{
+        font-size: 18px;
+        font-family: "Raleway";
+        color: rgb(87, 87, 87);
+        font-style: italic;
+        padding: 33px 0 28px;
+    }
 }
 
-.month_fill_button{
-    border-radius: 20px 0 0 20px;
-    padding: 16px 67px;
-    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
-}
-.year_fill_button{
-    border-radius: 0 20px 20px 0;
-    padding: 16px 67px;
-    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-}
-.fill_buttons{
-    padding-bottom: 80px;
-}
 .price_table_description{
   font-size: 18px;
   font-family: "Raleway";
@@ -452,32 +430,13 @@ button:hover{
   color: rgb(87, 87, 87);
   font-weight: bold;
   line-height: 2;
-}
-.price_price{
-  font-size: 60px;
-  color: rgb(0, 207, 241);
-  font-weight: bold;
-  line-height: 0.8;
+  margin:20px 0px;
 }
 .price_month{
   font-size: 18px;
   color: rgb(87, 87, 87);
   line-height: 2.667;
 }
-
-.fill_sign_up_button{
-    position: relative;
-}
-
-.fill_sign_up_button button{
-    border-radius: 30px;
-    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    transform: translate(-50%, 75%);
-    padding: 15px 35px;
-    text-transform: uppercase;
-}
-
 .advertisement{
     background-image: url('/app/images/advertisement_background.png');
     margin-top: 110px;
@@ -535,9 +494,33 @@ button:hover{
 footer{
     background-color: #fbfbfb;
 }
-
-.footer_container{
-    padding: 122px 0;
+.footer{
+    &_container{
+        padding: 122px 0;
+    }
+    &_header{
+        font-size: 24px;
+        color: rgb(87, 87, 87);
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+    &_items{
+        font-size: 14px;
+        font-family: "Raleway",sans-serif;
+        color: #575757;
+        line-height: 2.4;
+    }
+    &_email input{
+        position: relative;
+        padding: 16px 33px;
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 30px 0 0 30px;
+    }
+    &__email button{
+        padding: 20px 36px;
+        position: absolute;
+        border-radius: 0 30px 30px 0;
+    }
 }
 .logo_and_links{
     padding-top: 7px;
@@ -545,35 +528,13 @@ footer{
 .about_appnest{
     padding: 60px 0 30px;
 }
-.footer_header{
-  font-size: 24px;
-  color: rgb(87, 87, 87);
-  font-weight: bold;
-  padding-bottom: 50px;
-}
-.footer_items{
-    font-size: 14px;
-    font-family: "Raleway",sans-serif;
-    color: #575757;
-    line-height: 2.4;
-}
+
 ::placeholder{
   font-size: 15px;
   font-family: "Raleway",sans-serif;
   color: rgb(134, 134, 134);
 }  
-.footer_email input{
-    position: relative;
-    padding: 16px 33px;
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 30px 0 0 30px;
-}
       
-.footer_email button{
-    padding: 20px 36px;
-    position: absolute;
-    border-radius: 0 30px 30px 0;
-}
 .rights{
     height: 80px;
     display: flex;
