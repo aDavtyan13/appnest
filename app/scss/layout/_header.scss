@@ -217,8 +217,9 @@ button:hover{
         line-height: 0.75;        
         border: 1px solid #fff;
         border-radius: 30px;
-        width: 168px;
-        height: 58px;
+        // width: 168px;
+        // height: 58px;
+        padding: 22px 10px;
     }
 }
 header{
@@ -229,16 +230,18 @@ header{
     &_content{
         display: flex;
         flex-wrap: wrap;
+        padding-top: 70px;
         &_left{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
         }
     }
     &_image{
-        padding: 135px 0;
+        // padding: 135px 0; *ERROR*
+        text-align: center;
         & img{
-            max-height: 100%;
+            max-height: 60%;
             max-width: 100%;
         }
     }
@@ -307,6 +310,10 @@ header{
 .feature{
     &_section_phones{
         padding: 141px 0;
+        img{
+            max-height: 80%;
+            max-width: 100%;
+        }
     }
     &_section_elements{
         display: flex;
@@ -652,6 +659,16 @@ footer{
     .footer_email button{
         padding: 20px 25px;
     }
+    .video_left_side{
+        text-align: center;
+        margin: 0 12px;
+    }
+    .stroke_button{
+        margin-right: 0;
+    }
+    .features_heading{
+        padding-top: 0;
+    }
 }
 @media(max-width: 991px){
     .ad_images{
@@ -685,6 +702,15 @@ footer{
     }
     .header_text{
         padding-top: 30px;
+    }
+    .ad_cotent{
+        text-align: center;
+    }
+    .header_content{
+        padding-top: 0;
+    }
+    .video_left_side{
+        margin: 0 3px;
     }
 }
 @media(max-width:778px){
