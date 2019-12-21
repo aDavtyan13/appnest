@@ -56,19 +56,17 @@
     cursor: pointer; }
 
 .fill_buttons {
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  font-size: 24px;
+  line-height: 2; }
   .fill_buttons button {
     padding: 6px 55px;
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1); }
   .fill_buttons_month {
     border-radius: 30px 0 0 30px;
-    font-size: 24px;
-    color: white;
-    line-height: 2; }
+    color: white; }
   .fill_buttons_year {
-    font-size: 24px;
     color: #575757;
-    line-height: 2;
     border-radius: 0 30px 30px 0; }
 
 .fill_sign_up_button {
@@ -237,6 +235,9 @@ p {
   font-weight: bold;
   line-height: 1.333; }
 
+.toggler {
+  height: 23px; }
+
 .capitalized--text {
   text-transform: capitalize; }
 
@@ -303,7 +304,7 @@ button:hover {
     line-height: 0.75;
     border: 1px solid #fff;
     border-radius: 30px;
-    padding: 22px 10px; }
+    padding: 22px 29px; }
 
 header {
   background: url("/app/images/header_background.png") no-repeat;
@@ -410,9 +411,7 @@ header {
 .video {
   position: relative;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  display: flex; }
   .video_section {
     padding: 0 15px;
     background-color: #fbfbfb; }
@@ -687,13 +686,28 @@ footer {
     padding: 16px 30px; }
   .footer_email button {
     padding: 20px 25px; }
-  .video_left_side {
-    text-align: center;
-    margin: 0 12px; }
   .stroke_button {
     margin-right: 0; }
   .features_heading {
-    padding-top: 0; } }
+    padding-top: 0; }
+  .navbar_content {
+    padding-top: 0; }
+  .header_text p {
+    font-size: 24px; }
+  .header_paragraph p {
+    font-size: 13px; }
+  .standard_buttons {
+    padding-top: 15px; }
+  .header_text {
+    padding-top: 15px; }
+    .header_text_image {
+      margin: 0 auto; }
+  .video_left_side {
+    text-align: center; }
+  .get_the_app_button {
+    padding-top: 7px; }
+    .get_the_app_button button {
+      padding: 13px 23px; } }
 
 @media (max-width: 991px) {
   .ad_images {
@@ -714,22 +728,22 @@ footer {
   .get_the_app_button {
     display: none; }
   .header_image {
-    padding: 75px 0;
-    margin: 0 auto; }
+    padding-top: 20px; }
   .header_text {
     padding-top: 30px; }
-  .ad_cotent {
+  .ad_content {
     text-align: center; }
   .header_content {
     padding-top: 0; }
-  .video_left_side {
-    margin: 0 3px; } }
+  .fill_buttons button {
+    padding: 6px 28px;
+    font-size: 13px; } }
 
-@media (max-width: 778px) {
+@media (max-width: 767px) {
   footer {
     text-align: center; }
-  .footer_email {
-    margin-right: 90px; }
+    footer_email {
+      margin-right: 90px; }
   .social_links {
     justify-content: center; }
   .news_elements {
@@ -744,12 +758,17 @@ footer {
   .header_content_left {
     text-align: center; }
   .standard_buttons {
-    justify-content: center; } }
+    justify-content: center; }
+  .screen_img {
+    text-align: center;
+    margin: 11px 0; }
+  .overlay_blue {
+    width: 60%; } }
 
-@media (max-width: 478px) {
-  .footer_email input {
-    padding: 16px 3px; }
-  .footer_email button {
-    padding: 20px 17px; }
+@media (max-width: 575px) {
   .footer_email {
-    margin-right: 60px; } }
+    margin-right: 60px; }
+    .footer_email input {
+      padding: 16px 3px; }
+    .footer_email button {
+      padding: 20px 17px; } }

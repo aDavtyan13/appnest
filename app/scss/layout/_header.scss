@@ -95,9 +95,6 @@
 .app-info_pink:before {
     content: "\e918";
 }
-  
-  
-
 .border--green{
     border: 1px solid #24c657;
 }
@@ -145,6 +142,9 @@ p{
     color: rgb(40, 40, 40);
     font-weight: bold;
     line-height: 1.333;
+}
+.toggler{
+    height: 23px;
 }
 .capitalized--text{
     text-transform: capitalize;
@@ -219,7 +219,7 @@ button:hover{
         border-radius: 30px;
         // width: 168px;
         // height: 58px;
-        padding: 22px 10px;
+        padding: 22px 29px;        
     }
 }
 header{
@@ -231,11 +231,11 @@ header{
         display: flex;
         flex-wrap: wrap;
         padding-top: 70px;
-        &_left{
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-        }
+        // &_left{
+        //     // display: flex;
+        //     // flex-direction: column;
+        //     // justify-content: center;
+        // }
     }
     &_image{
         // padding: 135px 0; *ERROR*
@@ -343,8 +343,6 @@ header{
     position: relative;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     &_section{
         padding: 0 15px;
         background-color: #fbfbfb;
@@ -659,15 +657,38 @@ footer{
     .footer_email button{
         padding: 20px 25px;
     }
-    .video_left_side{
-        text-align: center;
-        margin: 0 12px;
-    }
     .stroke_button{
         margin-right: 0;
     }
     .features_heading{
         padding-top: 0;
+    }
+    .navbar_content{
+        padding-top: 0;
+    }
+    .header_text p{
+        font-size: 24px;
+    }
+    .header_paragraph p{
+        font-size: 13px;
+    }
+    .standard_buttons{
+        padding-top: 15px;
+    }
+    .header_text{
+        padding-top: 15px;
+        &_image{
+            margin: 0 auto;
+        }
+    }
+    .video_left_side{
+        text-align: center;
+    }
+    .get_the_app_button{
+        padding-top: 7px;
+        button{
+            padding: 13px 23px;
+        }
     }
 }
 @media(max-width: 991px){
@@ -697,28 +718,28 @@ footer{
         display: none;
     }
     .header_image{
-        padding: 75px 0;
-        margin: 0 auto;
+        padding-top: 20px;
     }
     .header_text{
         padding-top: 30px;
     }
-    .ad_cotent{
+    .ad_content{
         text-align: center;
     }
     .header_content{
         padding-top: 0;
     }
-    .video_left_side{
-        margin: 0 3px;
+    .fill_buttons button{
+        padding: 6px 28px;
+        font-size: 13px;
     }
 }
-@media(max-width:778px){
+@media(max-width:767px){
     footer{
         text-align: center;
-    }
-    .footer_email{
-        margin-right: 90px;
+        &_email{
+            margin-right: 90px;
+        }
     }
     .social_links{
         justify-content: center;
@@ -742,16 +763,23 @@ footer{
     .standard_buttons{
         justify-content: center;
     }
+    .screen_img{
+        text-align: center;
+        margin: 11px 0;
+    }
+    .overlay_blue{
+        width: 60%;
+    }
 }
 
-@media(max-width:478px){
-    .footer_email input{
-        padding: 16px 3px;
-    }
-    .footer_email button{
-        padding: 20px 17px;
-    }
+@media(max-width: 575px){
     .footer_email{
         margin-right: 60px;
+        & input{
+            padding: 16px 3px;
+        }
+        & button{
+            padding: 20px 17px;
+        }
     }
 }
