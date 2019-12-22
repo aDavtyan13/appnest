@@ -7,6 +7,7 @@
     &_header {
         font-size: 24px;
         font-weight: bold;
+        line-height: 1;
     }
     &_paragraph{
         padding-top: 30px;
@@ -28,7 +29,7 @@
     &_texts {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-        padding: 40px 28px;
+        padding: 38px 19px 35px 16px;
     }
 }
 .read_more{
