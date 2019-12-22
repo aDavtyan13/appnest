@@ -1,3 +1,12 @@
+button {
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
 .standard_buttons{
     display: flex;
     padding-top: 60px;
@@ -16,7 +25,6 @@
         font-size: 25px;
     }   
     &_text{
-        color: rgb(255, 255, 255);
         font-size: 9px;
         font-family: "Poppins";
         text-transform: uppercase;
@@ -47,7 +55,6 @@
     }
     
     &_text{
-        color: rgb(255, 255, 255);
         font-size: 9px;
         font-family: "Poppins";
         text-transform: uppercase;

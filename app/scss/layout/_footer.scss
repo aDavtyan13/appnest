@@ -1,0 +1,90 @@
+footer{
+    background-color: #fbfbfb;
+}
+.footer{
+    &_container{
+        padding: 65px 0;
+    }
+    &_header{
+        font-size: 24px;
+        color: rgb(87, 87, 87);
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    &_items{
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(87, 87, 87);
+        line-height: 2.4;
+    }
+    &_email{
+        padding-top: 22px;
+    }
+    &_email input{
+        position: relative;
+        padding: 16px 35px;
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 30px 0 0 30px;
+    }
+    &_email button{
+        padding: 20px 36px;
+        position: absolute;
+        border-radius: 0 30px 30px 0;
+    }
+}
+.newsletter_text{
+    padding-top: 35px;
+}
+.logo_and_links{
+    padding-top: 7px;
+}
+.about_appnest{
+    padding: 60px 0 30px;
+}
+::placeholder{
+  font-size: 15px;
+  font-family: "Raleway",sans-serif;
+  color: rgb(134, 134, 134);
+}     
+.rights{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;      
+}
+.copyright span{
+    font-weight: bold;
+}
+.arrow_top {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow_top:hover{
+    cursor: pointer;
+}
+.relative{
+    position: relative;
+}
+.arrow_top i{
+    font-size: 37px;
+}
+.social_links i{
+    font-size: 35px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.social_links i:first-child{
+    padding-left: 0;
+}
