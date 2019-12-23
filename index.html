@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="dist/bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <script src="dist/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="app/css/main.css">
     <title>Document</title>
 </head>
@@ -17,15 +15,15 @@
     <header class="header_index">
         <div class="container">
             <div class="row">
-                <nav class="navbar navbar-expand-lg col-lg-9 navbar_content">
-                    <a href="index.html" class="navbar-brand col-2 capitalized--text"><img src="/app/images/logo.svg" alt=""></a>
+                <nav class="navbar navbar-expand-lg navbar_content">
+                    <a href="index.html" class="navbar-brand capitalized--text logo"><img src="/app/images/logo.svg" alt=""></a>
                     <button class="navbar-toggler background_color--whitetoggler-example toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="dark-blue-text">
-                            <i class="fas fa-bars fa-1x"></i>
+                            <i class=""></i>
                         </span>
                     </button>  
-                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <div class="navbar-collapse collapse navbar_items" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto offset-1">
                             <li class="nav-item">
                                 <a href="#" class="nav-link capitalized--text">home</a>
@@ -48,7 +46,7 @@
                         </ul>
                     </div>
                 </nav> 
-                <div class="col-2  get_the_app_button">
+                <div class="get_the_app_button">
                     <button class="capitalized--text poppins--font">
                         get the app
                     </button>
@@ -194,13 +192,12 @@
     </section>
     <section class="screenshots">
         <div class="container">
+            <div class="screenshots_header_content text-center">
+                <p class="screenshots_header_text capitalized--text poppins--font header color--header">awesome <span class="color--blue">screenshots</span></p>
+                <p class="col-lg-6 offset-lg-3 screenshots_header_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
+                    readable content of a page when at its layout</p>
+            </div>
             <div class="row">
-                <div class="col-lg-12 screenshots_header_content text-center">
-                    <p class="screenshots_header_text capitalized--text poppins--font header color--header">awesome <span class="color--blue">screenshots</span></p>
-                    <p class="col-lg-6 offset-lg-3 screenshots_header_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
-                        readable content of a page when at its layout</p>
-                </div>
-
                 <div class="col-lg-4 col-md-4 col-12 screen_img">
                     <img src="/app/images/screenshot1.png" alt="">
                 </div>
@@ -259,12 +256,10 @@
     </section>
     <section class="feedback">
         <div class="container">
-            <div class="row">   
-                <div class="col-lg-12 text-center">
-                    <p class="capitalized--text poppins--font header color--header">client's <span class="color--blue">feedback</span></p>
-                    <p class="col-lg-6 offset-lg-3 feedback_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
+            <div class="text-center">
+                <p class="capitalized--text poppins--font header color--header">client's <span class="color--blue">feedback</span></p>
+                <p class="col-lg-6 offset-lg-3 feedback_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
                         readable content of a page when at its layout</p>
-                </div>
             </div>
             <div class="feedback_list d-flex">
                 <div class="col-lg-4 col-md-4 col-12">
@@ -316,21 +311,19 @@
     </section>
     <section class="price">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="capitalized--text poppins--font header color--header">pricing <span class="color--blue">table</span></p>
-                    <p class="col-lg-6 offset-lg-3 price_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
-                        readable content of a page when at its layout</p>
-                </div>
-
-                <div class="col-12 d-flex justify-content-center fill_buttons poppins--font">
-                    <button class="fill_buttons_month background_color--green text-center color--white">
-                        Month
-                    </button>
-                    <button class="fill_buttons_year background_color--white text-center">
-                        Year
-                    </button>    
-                </div>
+            <div class="text-center">
+                <p class="capitalized--text poppins--font header color--header">pricing <span class="color--blue">table</span></p>
+                <p class="col-lg-6 offset-lg-3 price_paragraph paragraph color--paragraph">It is a long established fact that a reader will be distracted its by the 
+                    readable content of a page when at its layout</p>
+            </div>
+           
+            <div class="d-flex justify-content-center fill_buttons poppins--font">
+                <button class="fill_buttons_month background_color--green text-center color--white">
+                    Month
+                </button>
+                <button class="fill_buttons_year background_color--white text-center">
+                    Year
+                </button>    
             </div>
             <div class="price_table d-flex text-center">
                 <div class="col-lg-4 col-md-4 col-12">  
@@ -390,27 +383,25 @@
 
     <section class="advertisement"> 
         <div class="overlay_green_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-12 ad_content">
-                        <p class="ad_section_header color--white poppins--font header ">Now Appnest available <span class="capitalized--text">get this app now</span></span></p>
-                        <p class="ad_section_paragraph color--white paragraph">It is a long established fact that a reader will be distracted its by the readable content of a page when at its layout. 
-                            As opposed it conten making it look like readable English.</p>
-                        <div class="standard_buttons">
-                            <div class="fill_button background_color--white color--green">
-                                <i class="app-apple color--green"></i>
-                                <p class="fill_button_text color--green">download from <span>apple store</span></p>
-                            </div>
-                            <div class="stroke_button border--white">
-                                <i class="app-playstore color--white"></i>
-                                <p class="stroke_button_text color--white">download from <span>play store</span></p>
-                            </div>
+            <div class="container">  
+                <div class="col-lg-6 col-12 ad_content">
+                    <p class="ad_section_header color--white poppins--font header ">Now Appnest available <span class="capitalized--text">get this app now</span></span></p>
+                    <p class="ad_section_paragraph color--white paragraph">It is a long established fact that a reader will be distracted its by the readable content of a page when at its layout. 
+                        As opposed it conten making it look like readable English.</p>
+                    <div class="standard_buttons">
+                        <div class="fill_button background_color--white color--green">
+                            <i class="app-apple color--green"></i>
+                            <p class="fill_button_text color--green">download from <span>apple store</span></p>
+                        </div>
+                        <div class="stroke_button border--white">
+                            <i class="app-playstore color--white"></i>
+                            <p class="stroke_button_text color--white">download from <span>play store</span></p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 ad_images">
-                        <img src="/app/images/ad_image1.png" alt="" class="ad_first_image">
-                        <img src="/app/images/ad_image2.png" alt="" class="ad_second_image" >
-                    </div>
+                </div>
+                <div class="col-lg-6 col-12 ad_images">
+                    <img src="/app/images/ad_image1.png" alt="" class="ad_first_image">
+                    <img src="/app/images/ad_image2.png" alt="" class="ad_second_image" >
                 </div>
             </div>
         </div>
@@ -418,50 +409,48 @@
 
     <section class="news_section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="capitalized--text poppins--font header color--header">recent <span class="color--blue">news</span></p>
-                    <p class="col-lg-6 offset-lg-3 paragraph color--paragraph color--paragraph news_paragraph">It is a long established fact that a reader will be distracted its by the 
-                        readable content of a page when at its layout</p>
+            <div class="text-center">
+                <p class="capitalized--text poppins--font header color--header">recent <span class="color--blue">news</span></p>
+                <p class="col-lg-6 offset-lg-3 paragraph color--paragraph color--paragraph news_paragraph">It is a long established fact that a reader will be distracted its by the 
+                    readable content of a page when at its layout</p>
+            </div>
+            <div class="news row">
+                <div class="col-lg-4 col-md-4 col-12">  
+                    <div class="news_elements">
+                        <img src="/app/images/newsOne.png" alt="">
+                        <div class="news_texts">
+                            <p class="news_header poppins--font capitalized--text color--blue">exclusive post for you</p>
+                            <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
+                            <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
+                            <p class="read_more capitalized--text poppins--font">
+                                <a href="#" class="color--blue">read more<i class="app-arrow_right"></i></a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="news d-flex">
-                    <div class="col-lg-4 col-md-4 col-12">  
-                        <div class="news_elements">
-                            <img src="/app/images/newsOne.png" alt="">
-                            <div class="news_texts">
-                                <p class="news_header poppins--font capitalized--text color--blue">exclusive post for you</p>
-                                <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
-                                <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
-                                <p class="read_more capitalized--text poppins--font">
-                                    <a href="#" class="color--blue">read more<i class="app-arrow_right"></i></a>
-                                </p>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-12">  
+                    <div class="news_elements">
+                        <img src="/app/images/newsTwo.png" alt="">
+                        <div class="news_texts">
+                            <p class="news_header poppins--font capitalized--text">design theory</p>
+                            <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
+                            <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
+                            <p class="read_more capitalized--text poppins--font">
+                                <a href="#">read more<i class="app-arrow_right"></i></a>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-12">  
-                        <div class="news_elements">
-                            <img src="/app/images/newsTwo.png" alt="">
-                            <div class="news_texts">
-                                <p class="news_header poppins--font capitalized--text">design theory</p>
-                                <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
-                                <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
-                                <p class="read_more capitalized--text poppins--font">
-                                    <a href="#">read more<i class="app-arrow_right"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">  
-                        <div class="news_elements">
-                            <img src="/app/images/newsThree.png" alt="">
-                            <div class="news_texts">
-                                <p class="news_header poppins--font capitalized--text">technology & ideas</p>
-                                <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
-                                <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
-                                <p class="read_more capitalized--text poppins--font">
-                                    <a href="#">read more<i class="app-arrow_right"></i></a>
-                                </p>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">  
+                    <div class="news_elements">
+                        <img src="/app/images/newsThree.png" alt="">
+                        <div class="news_texts">
+                            <p class="news_header poppins--font capitalized--text">technology & ideas</p>
+                            <p class="news_date"><span>Posted By:</span> Admin | 07 Sep,2018</p>
+                            <p class="news_paragraph">Ut enim ad minim veniquis nostrud lieon tear exercitation ullamco.If you use this site to donating a bandwidth bill.</p>
+                            <p class="read_more capitalized--text poppins--font">
+                                <a href="#">read more<i class="app-arrow_right"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>

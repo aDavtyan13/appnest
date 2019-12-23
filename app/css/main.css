@@ -140,6 +140,38 @@ button:hover {
     font-weight: bold;
     line-height: 0.75; }
 
+.Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 3335px;
+  z-index: 207; }
+
+.Get_the_app {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.75;
+  position: absolute;
+  left: 1409.937px;
+  top: 80px;
+  z-index: 206; }
+
+.Background {
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 30px;
+  position: absolute;
+  left: 1375px;
+  top: 57px;
+  width: 168px;
+  height: 58px;
+  z-index: 205; }
+
 .overlay_blue {
   background-color: rgba(0, 207, 241, 0.902);
   position: absolute;
@@ -162,8 +194,7 @@ button:hover {
   height: inherit; }
 
 .news {
-  padding-top: 77px;
-  flex-wrap: wrap; }
+  padding-top: 77px; }
   .news_section {
     padding: 140px 0; }
   .news_header {
@@ -201,6 +232,12 @@ button:hover {
 
 .navbar_content {
   padding-top: 68px; }
+
+.navbar_items {
+  margin-right: 170px; }
+
+.logo {
+  margin-right: 220px; }
 
 .toggler {
   height: 23px;
@@ -319,7 +356,7 @@ footer {
   text-align: center;
   position: absolute;
   text-align: auto;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
@@ -469,7 +506,8 @@ p {
 .header_content {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 70px; }
+  height: calc(100vh - 116px);
+  align-items: center; }
 
 .header_image {
   text-align: center; }
@@ -741,11 +779,15 @@ p {
   .get_the_app_button {
     padding-top: 7px; }
     .get_the_app_button button {
-      padding: 13px 23px; } }
+      padding: 13px 23px; }
+  .ad_images {
+    top: 30%; }
+    .ad_images img {
+      width: 50%; } }
 
 @media (max-width: 991px) {
   .ad_images {
-    top: 23%; }
+    display: none; }
   .ad_second_image {
     transform: translate(24%, 18%); }
   .price_table_elements {
@@ -772,7 +814,11 @@ p {
     padding-top: 0; }
   .fill_buttons button {
     padding: 6px 28px;
-    font-size: 13px; } }
+    font-size: 13px; }
+  .header_image img {
+    width: 60%; }
+  .standard_buttons {
+    justify-content: center; } }
 
 @media (max-width: 767px) {
   footer {
@@ -792,8 +838,6 @@ p {
     margin-bottom: 40px; }
   .header_content_left {
     text-align: center; }
-  .standard_buttons {
-    justify-content: center; }
   .screen_img {
     text-align: center;
     margin: 11px 0; }
