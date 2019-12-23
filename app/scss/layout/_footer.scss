@@ -14,8 +14,10 @@ footer{
     &_items{
         font-size: 15px;
         font-family: "Raleway";
-        color: rgb(87, 87, 87);
         line-height: 2.4;
+        a{
+            color: rgb(87, 87, 87);
+        }
     }
     &_email{
         padding-top: 22px;

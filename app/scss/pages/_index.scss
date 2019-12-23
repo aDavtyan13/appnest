@@ -478,6 +478,16 @@ p{
             width: 50%;
         }
     }
+    .logo{
+        margin-right: 150px;
+    }
+    .navbar_items{
+        margin-right: 50px;
+    }
+    .recent_posts p{
+        font-size: 14px;
+        padding-left: 10px;
+    }
 }
 @media(max-width: 991px){
     .ad_images{
@@ -573,5 +583,8 @@ p{
         & button{
             padding: 20px 17px;
         }
+    }
+    .logo{
+        margin-right: 80px;
     }
 }
