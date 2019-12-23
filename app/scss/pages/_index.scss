@@ -134,9 +134,6 @@ p{
     font-weight: bold;
     line-height: 1.333;
 }
-.capitalized--text{
-    text-transform: capitalize;
-}  
 .poppins--font{
     font-family: 'Poppins', sans-serif;
 }
@@ -156,7 +153,7 @@ p{
         text-align: center;
         & img{
             max-height: 60%;
-            max-width: 100%;
+            max-width: 60%;
         }
     }
     &_text p{
