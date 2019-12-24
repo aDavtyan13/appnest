@@ -185,11 +185,11 @@ button {
   .post_texts {
     background-color: white;
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 38px 14px 35px 11px; }
+    width: 100%; }
+  .post_container {
+    padding: 38px 12px; }
   .post_content {
-    padding: 67px 0 58px;
-    display: flex;
-    flex-wrap: wrap; }
+    padding: 67px 0 58px; }
   .post_elements {
     padding-bottom: 82px; }
     .post_elements img {
@@ -808,8 +808,8 @@ p {
 .horizontal_line {
   position: absolute;
   top: 50%;
-  left: 92%;
-  width: 22%;
+  left: 86%;
+  width: 28%;
   border-top: 1px solid white; }
 
 .feedback {
@@ -917,8 +917,16 @@ p {
 
 .news_texts {
   background-color: white;
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-  padding: 38px 10px 35px 10px; }
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1); }
+
+.news_content {
+  padding: 38px 28px; }
+
+.news_small_paragraph {
+  font-size: 15px;
+  font-family: "Raleway";
+  color: #454545;
+  padding-top: 25px; }
 
 @media (max-width: 1199px) {
   .horizontal_line {

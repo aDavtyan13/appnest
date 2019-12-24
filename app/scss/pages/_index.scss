@@ -322,8 +322,8 @@ p{
 .horizontal_line{
     position: absolute;
     top: 50%;
-    left: 92%;
-    width: 22%;
+    left: 86%;
+    width: 28%;
     border-top: 1px solid white;
 }
 .feedback{
@@ -428,18 +428,27 @@ p{
     padding: 30px 0 80px;
     font-size: 15px;
     font-family: "Raleway";
-    color: #454545; }
-  .news_date {
+    color: #454545; 
+}
+.news_date {
     padding-top: 19px; }
-  .news_date span {
+.news_date span {
     font-weight: bold; }
-  .news_elements img {
+.news_elements img {
     width: 100%;
     max-height: 100%; }
-  .news_texts {
+.news_texts{
     background-color: white;
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 38px 10px 35px 10px; 
+}
+.news_content{
+    padding: 38px 28px; 
+}
+.news_small_paragraph{
+    font-size: 15px;
+    font-family: "Raleway";
+    color: #454545; 
+    padding-top: 25px;
 }
 @media(max-width: 1199px){
     .horizontal_line{

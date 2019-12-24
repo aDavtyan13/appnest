@@ -24,12 +24,13 @@
     &_texts {
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-        padding: 38px 14px 35px 11px;
+        width: 100%;
+    }
+    &_container{
+        padding: 38px 12px;
     }
     &_content{
         padding: 67px 0 58px;
-        display: flex;
-        flex-wrap: wrap;
     }
     &_elements{
         padding-bottom: 82px;
