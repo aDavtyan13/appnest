@@ -95,6 +95,10 @@
 .app-info_pink:before {
     content: "\e918";
 }
+.app-search_icon:before {
+    content: "\e91e";
+}
+  
 .border--green{
     border: 1px solid #24c657;
 }
@@ -535,6 +539,10 @@ p{
     .standard_buttons{
         justify-content: center;
     }
+    .name_and_email>div{
+        margin-bottom: 15px;
+        padding: 0;
+    }
 }
 @media(max-width:767px){
     footer{
@@ -568,6 +576,27 @@ p{
     }
     .overlay_blue{
         width: 60%;
+    }
+    .fill_submit_button{
+        text-align: center;
+    }
+    .name_and_email>div{
+        margin-bottom: 15px;
+    }
+    .first_line_tags,.second_line_tags{
+        display: inline;
+    }
+    .sidebar_header{
+        text-align: center;
+    }
+    .sidebar_italic p{
+        padding-left: 40px;
+    }
+    .blog_header{
+        height: 360px;
+    }
+    .nav_container{
+        height: calc(360px - 116px);
     }
 }
 
