@@ -533,10 +533,6 @@ footer {
 .arrow_top i {
   font-size: 37px; }
 
-.news_flex {
-  display: flex;
-  flex-wrap: wrap; }
-
 @font-face {
   font-family: 'appnest';
   src: url("../fonts/appnest.eot?2ys57g");
@@ -1038,7 +1034,9 @@ p {
   .blog_header {
     height: 360px; }
   .nav_container {
-    height: calc(360px - 116px); } }
+    height: calc(360px - 116px); }
+  .links {
+    justify-content: center; } }
 
 @media (max-width: 575px) {
   .footer_email {

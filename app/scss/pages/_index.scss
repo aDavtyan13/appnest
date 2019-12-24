@@ -598,6 +598,9 @@ p{
     .nav_container{
         height: calc(360px - 116px);
     }
+    .links{
+        justify-content: center;
+    }
 }
 
 @media(max-width: 575px){
