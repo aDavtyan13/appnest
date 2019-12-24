@@ -56,12 +56,10 @@
 
 button {
   border: none; }
-
-button:focus {
-  outline: none; }
-
-button:hover {
-  cursor: pointer; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    cursor: pointer; }
 
 .standard_buttons {
   display: flex;
@@ -202,9 +200,8 @@ button:hover {
   font-size: 16px;
   font-weight: bold;
   padding-top: 15px; }
-
-.read_more i {
-  padding-left: 5px; }
+  .read_more i {
+    padding-left: 5px; }
 
 .search {
   border: 1px solid #d0d0d0;
@@ -272,14 +269,6 @@ button:hover {
 .first_line_tags {
   margin-bottom: 10px; }
 
-@media (max-width: 1199px) {
-  .search_input {
-    font-size: 10px;
-    padding: 2px 2px; }
-  .search i {
-    font-size: 10px;
-    padding: 13px; } }
-
 .blog_header {
   background: url("/app/images/advertisement_background.png") no-repeat center;
   height: 560px;
@@ -338,28 +327,25 @@ button:hover {
     font-family: "Raleway";
     padding-left: 90px; }
 
-.social_links {
-  align-items: center; }
-
-.social_links i {
-  font-size: 35px;
-  padding-right: 10px;
-  cursor: pointer; }
-
-.social_links i:first-child {
-  padding-left: 0; }
-
-.links {
-  padding: 80px 0 0; }
-
 .sidebar_links {
   padding-left: 15px;
   margin-bottom: 0; }
 
-.links_share {
-  font-size: 24px;
-  line-height: 1.5em;
-  color: #474747; }
+.social_links {
+  align-items: center; }
+  .social_links i {
+    font-size: 35px;
+    padding-right: 10px;
+    cursor: pointer; }
+    .social_links i:first-child {
+      padding-left: 0; }
+
+.links {
+  padding: 80px 0 0; }
+  .links_share {
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #474747; }
 
 .comment {
   font-size: 15px;
@@ -404,11 +390,10 @@ button:hover {
 
 .name_and_email {
   padding: 60px 0 30px; }
-
-.name_and_email::placeholder {
-  font-size: 15px;
-  color: #575757;
-  line-height: 3.2; }
+  .name_and_email::placeholder {
+    font-size: 15px;
+    color: #575757;
+    line-height: 3.2; }
 
 .name_and_email > div > input {
   padding: 16px 23px;
@@ -509,9 +494,8 @@ footer {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 1.5; }
-
-.copyright span {
-  font-weight: bold; }
+  .copyright span {
+    font-weight: bold; }
 
 .arrow_top {
   width: 75px;
@@ -523,15 +507,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.arrow_top:hover {
-  cursor: pointer; }
+  .arrow_top:hover {
+    cursor: pointer; }
+  .arrow_top i {
+    font-size: 37px; }
 
 .relative {
   position: relative; }
-
-.arrow_top i {
-  font-size: 37px; }
 
 @font-face {
   font-family: 'appnest';
@@ -542,14 +524,12 @@ footer {
   font-display: block; }
 
 [class^="app-"], [class*=" app-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'appnest' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -672,8 +652,6 @@ p {
   height: 100vh; }
 
 .header_content {
-  display: flex;
-  flex-wrap: wrap;
   height: calc(100vh - 116px);
   align-items: center; }
 
@@ -746,10 +724,6 @@ p {
   .feature_section_phones img {
     max-height: 100%;
     max-width: 100%; }
-
-.feature_section_elements {
-  display: flex;
-  flex-wrap: wrap; }
 
 .feature_elements_header {
   font-size: 18px;
@@ -843,8 +817,7 @@ p {
   .feedback_paragraph {
     padding-top: 30px; }
   .feedback_list {
-    padding-top: 73px;
-    flex-wrap: wrap; }
+    padding-top: 73px; }
     .feedback_list_item {
       box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
       padding: 47px 27px; }
@@ -882,16 +855,15 @@ p {
   color: #575757;
   line-height: 2.667; }
 
-.price_table {
-  flex-wrap: wrap; }
-  .price_table_elements {
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
-    padding: 79px 15px 74px; }
-  .price_table_description {
-    font-size: 18px;
-    font-family: "Raleway",sans-serif;
-    color: #575757;
-    line-height: 2.267; }
+.price_table_elements {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 79px 15px 74px; }
+
+.price_table_description {
+  font-size: 18px;
+  font-family: "Raleway",sans-serif;
+  color: #575757;
+  line-height: 2.267; }
 
 .advertisement {
   background-image: url(/app/images/advertisement_background.png) no-repeat center;
@@ -918,6 +890,35 @@ p {
 
 .ad_section_paragraph {
   padding-top: 20px; }
+
+.news_section {
+  padding: 140px 0; }
+
+.news_header {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1; }
+
+.news_paragraph {
+  padding: 30px 0 80px;
+  font-size: 15px;
+  font-family: "Raleway";
+  color: #454545; }
+
+.news_date {
+  padding-top: 19px; }
+
+.news_date span {
+  font-weight: bold; }
+
+.news_elements img {
+  width: 100%;
+  max-height: 100%; }
+
+.news_texts {
+  background-color: white;
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+  padding: 38px 10px 35px 10px; }
 
 @media (max-width: 1199px) {
   .horizontal_line {
@@ -958,7 +959,13 @@ p {
     margin-right: 50px; }
   .recent_posts p {
     font-size: 14px;
-    padding-left: 10px; } }
+    padding-left: 10px; }
+  .search_input {
+    font-size: 10px;
+    padding: 2px 2px; }
+  .search i {
+    font-size: 10px;
+    padding: 13px; } }
 
 @media (max-width: 991px) {
   .ad_images {
@@ -1029,8 +1036,8 @@ p {
     display: inline; }
   .sidebar_header {
     text-align: center; }
-  .sidebar_italic p {
-    padding-left: 40px; }
+    .sidebar_header_italic p {
+      padding-left: 40px; }
   .blog_header {
     height: 360px; }
   .nav_container {

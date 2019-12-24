@@ -57,10 +57,10 @@ footer{
 .copyright{
     text-transform: uppercase;
     font-size: 16px;
-    line-height: 1.5;      
-}
-.copyright span{
-    font-weight: bold;
+    line-height: 1.5;    
+    & span{
+        font-weight: bold;
+    }  
 }
 .arrow_top {
     width: 75px;
@@ -72,13 +72,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.arrow_top:hover{
-    cursor: pointer;
+    &:hover{
+        cursor: pointer;
+    }
+    & i{
+        font-size: 37px;
+    }
+    
 }
 .relative{
     position: relative;
-}
-.arrow_top i{
-    font-size: 37px;
 }

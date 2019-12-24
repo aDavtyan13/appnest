@@ -11,17 +11,13 @@
     font-style: normal;
     font-display: block;
   }
-  
   [class^="app-"], [class*=" app-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'appnest' !important;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -147,13 +143,10 @@ p{
 }
 .header{
     &_content{
-        display: flex;
-        flex-wrap: wrap;
         height: calc(100vh - 116px);
         align-items: center;
     }
     &_image{
-        // padding: 135px 0; *ERROR*
         text-align: center;
         & img{
             max-height: 60%;
@@ -228,10 +221,6 @@ p{
             max-height: 100%;
             max-width: 100%;
         }
-    }
-    &_section_elements{
-        display: flex;
-        flex-wrap: wrap;
     }
     &_elements_header{
         font-size: 18px;
@@ -344,7 +333,6 @@ p{
     }
     &_list{
         padding-top: 73px;
-        flex-wrap: wrap;
         &_item{
             box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);   
             padding: 47px 27px;
@@ -389,7 +377,6 @@ p{
         line-height: 2.667;
     }
     &_table{
-        flex-wrap: wrap;
         &_elements{
             box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
             padding: 79px 15px 74px;
@@ -429,6 +416,30 @@ p{
     &_section_paragraph{
         padding-top: 20px;
     }
+}
+.news_section {
+    padding: 140px 0; 
+}
+.news_header {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1; }
+.news_paragraph {
+    padding: 30px 0 80px;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: #454545; }
+  .news_date {
+    padding-top: 19px; }
+  .news_date span {
+    font-weight: bold; }
+  .news_elements img {
+    width: 100%;
+    max-height: 100%; }
+  .news_texts {
+    background-color: white;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+    padding: 38px 10px 35px 10px; 
 }
 @media(max-width: 1199px){
     .horizontal_line{
@@ -488,6 +499,14 @@ p{
     .recent_posts p{
         font-size: 14px;
         padding-left: 10px;
+    }
+    .search_input{
+        font-size: 10px;
+        padding: 2px 2px;
+    }
+    .search i{
+        font-size: 10px;
+        padding: 13px;
     }
 }
 @media(max-width: 991px){
@@ -588,9 +607,9 @@ p{
     }
     .sidebar_header{
         text-align: center;
-    }
-    .sidebar_italic p{
-        padding-left: 40px;
+        &_italic p{
+            padding-left: 40px;
+        }
     }
     .blog_header{
         height: 360px;
